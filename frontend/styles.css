@@ -4,12 +4,16 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
+    /* background-color: #121111;
+     */
+     background: linear-gradient(to bottom right, #ff7e5f, #feb47b);
+
+
     margin: 0;
 }
 
 .container {
-    width: 400px;
+    width: 500px;
     padding: 20px;
     background-color: white;
     border-radius: 8px;
@@ -21,7 +25,7 @@ h1 {
 }
 
 .chat-window {
-    height: 300px;
+    height: 500px;
     overflow-y: auto;
     border: 1px solid #ccc;
     padding: 10px;

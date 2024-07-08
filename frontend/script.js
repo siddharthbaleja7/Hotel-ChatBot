@@ -46,3 +46,8 @@ async function sendMessage() {
         chatWindow.appendChild(errorMessageDiv);
     }
 }
+document.getElementById('user-input').addEventListener('keypress', function (e) {
+    if (e.key === 'Enter') {
+        sendMessage();
+    }
+});
